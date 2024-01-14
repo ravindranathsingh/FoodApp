@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodApp</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="shortcut icon" href="./icons8-kawaii-french-fries-48.png">
+</head>
+<body>    
+    <header class="main-heading">
+        <h1 class="title"><img src="./icons8-kawaii-noodle-48.png" alt="logo">FoodApp</h1>
+    </header>
+    <nav class="navbar">
+        <div class="nav-menu">
+            <button class="btn"><a class="link" href="./index.html">Home</a></button>
+            <button class="btn"><a class="link" href="#">Category</a></button>
+            <button class="btn"><a class="link" href="#">Notifications</a></button>
+            <button class="btn"><a class="link" href="#">Account</a></button>
+            <button class="btn"><a class="link" href="#">Cart</a></button>
+            <input class="btn right" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn right link" type="submit">Search</button>
+            <button class="btn right"><a class="link" href="#">Login</a></button>
+        </div>
+    </nav>
+    <div class="banner">
+        <img id="food-banner" src="./pexels-ash-376464.jpg" alt="food">
+        <p id="advertise">Dive into a world where every bite is a rendezvous with irresistible delight, a symphony of cravings waiting to be unleashed.</p>
+    </div>
+    <div class="heading">
+        <h2 class="title">Restaurant</h2>
+    </div>
+    <section class="restaurant">
+        <div id="restaurant-names"><img src="./pexels-chan-walrus-958545.jpg" alt=""><p>Bistro Bliss</p></div>
+        <div id="restaurant-names"><img src="./pexels-dana-tentis-262959.jpg" alt=""><p>Dine Divine</p></div>
+        <div id="restaurant-names"><img src="./pexels-dhiraj-jain-12737656.jpg" alt=""><p>Red Bucket Biryani</p></div>
+        <div id="restaurant-names"><img src="./pexels-lisa-fotios-1279330.jpg" alt=""><p>KFC restaurant</p></div>
+    </section>
+    <main>
+        <button id="cart-btn" type="button" class="btn">
+          <span id="show-hide-cart">Show</span> Cart
+        </button>
+        <div class="heading">
+            <h2 class="title">Deserts</h2>
+        </div>
+        <div id="cart-container">
+          <button class="btn" id="clear-cart-btn">Clear Cart</button>
+          <div id="products-container"></div>
+          <p>Total number of items: <span id="total-items">0</span></p>
+          <p>Subtotal: <span id="subtotal">$0</span></p>
+          <p>Taxes: <span id="taxes">$0</span></p>
+          <p>Total: <span id="total">$0</span></p>
+        </div>
+        <div id="dessert-card-container"></div>
+    </main>
+    <div class="heading">
+        <h2 class="title">About Us</h2>
+    </div>
+    <div class="about">
+        <p>At FoodApp, we believe that food is more than just sustenance; it's a celebration of culture, creativity, and community. Whether you're a seasoned chef or a kitchen novice, our app is designed to inspire and empower you to create delicious meals that cater to your unique tastes and preferences. 
+            What sets us apart is our commitment to simplicity and innovation. We've crafted an intuitive interface that effortlessly guides you through a treasure trove of recipes, cooking tips, and culinary inspiration. Say goodbye to mundane meals and hello to a world of culinary possibilities, all at your fingertips.</p>
+        <p>Explore our diverse collection of recipes curated by experts and fellow food enthusiasts. From quick and easy weekday dinners to elaborate weekend feasts, we have something for every occasion. Our app also adapts to your dietary preferences, ensuring that your culinary journey aligns with your health and lifestyle goals.
+            But 'FoodApp' is not just about recipes; it's a platform for food discovery and sharing. Connect with a community of like-minded foodies, share your own culinary creations, and be inspired by the amazing dishes crafted by others. Food brings people together, and our app aims to foster a sense of camaraderie among passionate individuals who appreciate the art of cooking.</p>
+        <p>We understand the importance of convenience in today's fast-paced world. That's why [Your App Name] is designed to fit seamlessly into your lifestyle. Plan your meals, create shopping lists, and even order ingredients directly through the app. Cooking has never been this easy and enjoyable.
+            Join us on this culinary adventure, and let [Your App Name] be your guide to a world of flavors, creativity, and connection. Whether you're a seasoned chef or a kitchen novice, our app is here to elevate your cooking experience. Welcome to a community where every meal is a celebration and every dish tells a story. Cheers to good food and great company!</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+<footer>
+    <div class="foot">
+        <p class="link">&copy; All Rights Resevered.</p>
+        <p><a class="link" href="#">Terms & Conditions</a></p>
+        <p><a class="link" href="#">Help Center</a></p>
+    </div>
+</footer>
+</html>
