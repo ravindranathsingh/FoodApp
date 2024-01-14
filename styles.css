@@ -1,17 +1,7 @@
-
 body {
   background-color: aliceblue;
   font-family: "Audiowide", sans-serif;
 }
-
-/* .main-heading {
-  width: 100%;
-  height: 10vh;  
-  border-radius: 5px;
-  background-color: #e6ecff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-} */
-
 .heading {
     background-color: #e6ecff;
     width: auto;
@@ -19,20 +9,17 @@ body {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 .title {
   color: black;
   text-align: center;
   margin: 25px 0;
 }
-
 #dessert-card-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
 }
-
 .dessert-card {
   background-color: white;
   padding: 15px;
@@ -43,11 +30,9 @@ body {
   width: 250px;
   height: 200px;
 }
-
 .dessert-price {
   font-size: 1.2rem;
 }
-
 .btn {
   display: block;
   cursor: pointer;
@@ -58,22 +43,18 @@ body {
   border: none;
   border-radius: 5px;
 }
-
 .btn:hover {
     transform: scale(0.9);
 }
-
 #cart-btn {
   position: absolute;
   top: 0;
   right: 0;
   display: none;
 }
-
 .add-to-cart-btn {
   margin: 30px auto 10px;
 }
-
 #cart-container {
   display: none;
   position: absolute;
@@ -87,37 +68,30 @@ body {
   font-size: 1.2rem;
   overflow-y: scroll;
 }
-
 .product {
   margin: 25px 0;
 }
-
 .product-count {
   display: inline-block;
   margin-right: 10px;
 }
-
 .banner {
   width: auto;
   display: flex;
   flex-direction: row;
 }
-
 #food-banner:hover {
   cursor: pointer;
 }
-
 #advertise {
   text-align: center;
   font-size: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border-radius: 20px;
 }
-
 h1:hover, h2:hover, p:hover {
   cursor: default;
 }
-
 #food-banner {
   width: 100vh;
   height: 50vh;
@@ -128,7 +102,6 @@ h1:hover, h2:hover, p:hover {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-
 .nav-menu {
   padding: 10px;
   margin: 5px;
@@ -137,19 +110,16 @@ h1:hover, h2:hover, p:hover {
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
 .link {
   text-decoration: none;
   color: white;
 }
-
 .restaurant {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 2px;
 }
-
 #restaurant-names {
   margin-top: 20px;
   width: 220px;
@@ -158,20 +128,17 @@ h1:hover, h2:hover, p:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: #6666ff;
 }
-
 .restaurant img {
   width: 220px;
   height: 200px;
   object-fit: cover;
   border-radius: 5px;
 }
-
 .restaurant p {
   color: azure;
   font-size: 25px;
   text-align: center;  
 }
-
 #restaurant-names:hover {
   cursor: pointer;
   transform: scale(0.95);
@@ -182,11 +149,9 @@ h1:hover, h2:hover, p:hover {
   margin: 20px;
   padding: 10px;
 }
-
 footer {
   margin-right: 2%;
 }
-
 .foot {
   width: 100%;
   height: 5vh;
@@ -199,25 +164,20 @@ footer {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .foot p {
   padding-bottom: 50px;
   text-align: center;
 }
-
 .foot .link {
   color: #0F1035;
 }
-
 @media (min-width: 768px) {
   #dessert-card-container {
     flex-direction: row;
   }
-
   .dessert-card {
     flex: 1 0 21%;
   }
-
   #cart-container {
     width: 300px;
   }
