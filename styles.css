@@ -75,32 +75,8 @@ body {
   display: inline-block;
   margin-right: 10px;
 }
-.banner {
-  width: auto;
-  display: flex;
-  flex-direction: row;
-}
-#food-banner:hover {
-  cursor: pointer;
-}
-#advertise {
-  text-align: center;
-  font-size: 50px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border-radius: 20px;
-}
 h1:hover, h2:hover, p:hover {
   cursor: default;
-}
-#food-banner {
-  width: 100vh;
-  height: 50vh;
-  margin: 30px;
-  margin-bottom: 0;
-  left: 20%;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .nav-menu {
   padding: 10px;
@@ -108,7 +84,6 @@ h1:hover, h2:hover, p:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .link {
   text-decoration: none;
